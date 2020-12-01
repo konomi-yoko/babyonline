@@ -1,0 +1,26 @@
+header {
+
+}
+
+.header-news {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: .08em;
+  background: #f8f5f3;
+  position: relative;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+main img {
+  width: 100%;
+}
