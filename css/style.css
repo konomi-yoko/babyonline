@@ -42,12 +42,44 @@
 
 footer {
     height: 40px;
-    width: 100%;
     font-size: 10px;
     border-top: 1px solid gray;
+    border-width: 90%;
     padding: 12px 20px;
 }
 
 .footer_text {
     margin-left: 10px;
+}
+
+.responsive_button {
+    display: none;
+}
+
+/*--------------レスポンシブ対応-------------- */
+/* スマホ用 */
+@media screen and (max-width: 480px){
+body{
+    min-width: 375px;
+    align-items: center;
+    text-align: center;
+}
+
+.responsive_button {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.footer_top {
+    display: none;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+}
+
 }
