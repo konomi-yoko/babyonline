@@ -29,7 +29,7 @@
 }
 
 
-
+/* ヘッダータイトルここから */
 .header-main {
   width: 100%;
   height: 100px;
@@ -136,6 +136,8 @@ main img {
 
 aside {
   width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 1px solid #dcdcdc;
 }
 
 #aside-slider {
