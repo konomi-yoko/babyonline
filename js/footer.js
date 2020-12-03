@@ -1,3 +1,3 @@
-$('.btn_footer').on('click', function(){
+$('.btn').on('click', function(){
     $('body, html').animate({scrollTop:0}, 500);
 });
