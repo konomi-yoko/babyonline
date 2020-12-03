@@ -187,6 +187,32 @@
     color: #c18e70;
 }
 
+.footer_middle {
+  text-align: center;
+}
+
+.footer_middle h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  /* border-bottom: 1px solid black;
+  width: 130px; */
+}
+
+.footer_middle ul {
+  list-style: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.footer_middle ul li {
+  margin-bottom: 5px;
+}
+
+.footer_middle ul li:last-child {
+  margin-bottom: 20px;
+}
+
 footer {
     height: 40px;
     font-size: 10px;
