@@ -213,6 +213,10 @@
   margin-bottom: 20px;
 }
 
+.follow_btn {
+  display: none;
+}
+
 footer {
     height: 40px;
     font-size: 10px;
@@ -246,6 +250,18 @@ body{
 
 .footer_top {
     display: none;
+}
+
+.follow_btn {
+  display: block;
+  position: fixed;
+  bottom: 10px; 
+  right: 10px;
+  padding: 6px 40px;
+  border-radius: 20px;
+  background-color: rgba(8, 8, 8, 0.5);
+  color: #fff;
+  font-size: 10px;
 }
 
 footer {
